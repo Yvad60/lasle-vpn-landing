@@ -4,7 +4,8 @@
   "description": "best vpn provider",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build":"vite build"
   },
   "author": "ivad",
   "license": "ISC",

@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/output.css">
   <title>LasleVPN - The best VPN provider</title>
 </head>
 
@@ -25,15 +26,15 @@
     </nav>
     <nav class="hidden md:block">
       <ul class="flex gap-10">
-        <li class="">About</li>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Testimonial</li>
-        <li>Help</li>
+        <li class="hover:text-primary_red cursor-pointer">About</li>
+        <li class="hover:text-primary_red cursor-pointer">Features</li>
+        <li class="hover:text-primary_red cursor-pointer">Pricing</li>
+        <li class="hover:text-primary_red cursor-pointer">Testimonial</li>
+        <li class="hover:text-primary_red cursor-pointer">Help</li>
       </ul>
     </nav>
     <nav class="hidden xl:flex gap-10 items-center">
-      <a href="" class="font-semibold">Sign in</a>
+      <a href="" class="font-semibold hover:text-primary_red cursor-pointer">Sign in</a>
       <button class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red">Sign Up</button>
     </nav>
     <nav class="block xl:hidden">
@@ -52,7 +53,7 @@
           started</button>
       </div>
       <div class="w-full row-start-1 md:col-start-2 self-center">
-        <img src="./images/hero-illustration.png" alt="illustration of a person">
+        <img src=" ./images/hero-illustration.png" alt="illustration of a person">
       </div>
     </section>
     <section class="mt-[105px] flex flex-col md:flex-row md:justify-around shadow-xl">
@@ -80,20 +81,24 @@
         </div>
       </div>
     </section>
-    <section>
-      <div></div>
-      <div>
-        <h2>We Provide Many Features You Can Use</h2>
-        <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
-        <ul>
-          <li>Powerfull online protection</li>
-          <li>Internet without borders</li>
-          <li>Supercharged VPN</li>
-          <li>No specific time limits</li>
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-[40px] my-[95px]">
+      <div class="flex flex-col justify-center gap-[20px] md:ml-[120px] self-end">
+        <h1 class="font-[900] text-[25px] md:text-[30px] xl:text-[35px] leading-[37px] md:leading-[50px] mr-[60px]">
+          We Provide Many Features You Can Use</h1>
+        <p>You can explore the features that we provide with fun and have their own functions each feature.
+        </p>
+        <ul class="flex flex-col gap-[16px]">
+          <li><i class="bi bi-check-circle-fill mr-3 text-lg text-primary_green"></i>Powerfull online protection</li>
+          <li><i class="bi bi-check-circle-fill mr-3 text-lg text-primary_green"></i>Internet without borders</li>
+          <li><i class="bi bi-check-circle-fill mr-3 text-lg text-primary_green"></i>Supercharged VPN</li>
+          <li><i class="bi bi-check-circle-fill mr-3 text-lg text-primary_green"></i>No specific time limits</li>
         </ul>
       </div>
+      <div class="w-full row-start-1 self-center flex justify-start">
+        <img src="./images/illustration2.png" alt="illustration of a person">
+      </div>
     </section>
-    <section>
+    <sectio class="bg-primary_bg_gray">
       <div>
         <h2 class="font-bold text-primary_red text-2xl  md:text-[#88843]">Choose Your Plan</h2>
         <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
@@ -103,19 +108,19 @@
         <div></div>
         <div></div>
       </div>
-    </section>
-    <section>
-      <div>
-        <h2>Huge Global Network of Fast VPN</h2>
-        <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
-      </div>
-      <div>
-        <img src="" alt="">
-      </div>
-    </section>
-    <section>
-      <div></div>
-    </section>
+      </section>
+      <section>
+        <div>
+          <h2>Huge Global Network of Fast VPN</h2>
+          <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
+        </div>
+        <div>
+          <img src="" alt="">
+        </div>
+      </section>
+      <section>
+        <div></div>
+      </section>
   </main>
 </body>
 
