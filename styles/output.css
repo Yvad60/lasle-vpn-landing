@@ -624,6 +624,26 @@ html {
   margin-top: auto;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
+.mt-\[90px\] {
+  margin-top: 90px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -644,6 +664,10 @@ html {
   width: 100%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .min-w-fit {
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
@@ -654,12 +678,32 @@ html {
   max-width: 1500px;
 }
 
+.max-w-\[380px\] {
+  max-width: 380px;
+}
+
+.max-w-\[555px\] {
+  max-width: 555px;
+}
+
+.max-w-\[450px\] {
+  max-width: 450px;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -726,6 +770,10 @@ html {
   align-self: center;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -764,6 +812,10 @@ html {
 .bg-primary_bg_gray {
   --tw-bg-opacity: 1;
   background-color: rgb(251 251 251 / var(--tw-bg-opacity));
+}
+
+.p-\[30px\] {
+  padding: 30px;
 }
 
 .py-\[30px\] {
@@ -858,6 +910,10 @@ html {
   line-height: 37px;
 }
 
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
 .text-primary_black {
   --tw-text-opacity: 1;
   color: rgb(11 19 42 / var(--tw-text-opacity));
@@ -881,6 +937,11 @@ html {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-\[\#FEA250\] {
+  --tw-text-opacity: 1;
+  color: rgb(254 162 80 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -950,6 +1011,10 @@ html {
     margin-left: 120px;
   }
 
+  .md\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -970,6 +1035,10 @@ html {
     justify-content: space-around;
   }
 
+  .md\:gap-\[50px\] {
+    gap: 50px;
+  }
+
   .md\:py-\[45px\] {
     padding-top: 45px;
     padding-bottom: 45px;
@@ -983,6 +1052,10 @@ html {
     font-size: 30px;
   }
 
+  .md\:text-\[35px\] {
+    font-size: 35px;
+  }
+
   .md\:leading-\[50px\] {
     line-height: 50px;
   }
@@ -994,6 +1067,10 @@ html {
     margin-right: 100px;
   }
 
+  .lg\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1003,6 +1080,14 @@ html {
   .xl\:mx-\[150px\] {
     margin-left: 150px;
     margin-right: 150px;
+  }
+
+  .xl\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
+  .xl\:mt-\[160px\] {
+    margin-top: 160px;
   }
 
   .xl\:flex {
