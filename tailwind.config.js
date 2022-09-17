@@ -13,7 +13,7 @@ module.exports = {
         secondary_red: '#FFECEC',
         primary_gray: '#EEEFF2',
         primary_green: '#2FAB73',
-        primary_bg_gray: '#fbfbfb',
+        primary_bg_gray: '#F8F8F8',
       },
     },
   },

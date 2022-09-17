@@ -9,6 +9,9 @@
 }
 
 @layer components {
+  .spaced {
+    @apply px-[25px] md:px-[50px] lg:px-[100px] xl:px-[150px] max-w-[1900px]  3xl:mx-auto
+  }
   .stats-icon-container {
     @apply flex justify-center items-center gap-[36px] py-[60px];
   }

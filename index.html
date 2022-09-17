@@ -14,35 +14,38 @@
   <title>LasleVPN - The best VPN provider</title>
 </head>
 
-<body class="mx-[25px] md:mx-[50px] lg:mx-[100px] xl:mx-[150px] text-primary_black max-w-[1500px] 3xl:mx-auto">
-  <header class="flex items-center justify-between py-[16px] sticky top-0 z-50 bg-white">
-    <nav>
-      <div>
-        <img src="./images/Logo.png" alt="LasleVPN logo" class="w-full">
-      </div>
-    </nav>
-    <nav class="block md:hidden order-[-1]">
-      <i class="bi bi-list text-3xl"></i>
-    </nav>
-    <nav class="hidden md:block">
-      <ul class="flex gap-10">
-        <li class="hover:text-primary_red cursor-pointer">About</li>
-        <li class="hover:text-primary_red cursor-pointer">Features</li>
-        <li class="hover:text-primary_red cursor-pointer">Pricing</li>
-        <li class="hover:text-primary_red cursor-pointer">Testimonial</li>
-        <li class="hover:text-primary_red cursor-pointer">Help</li>
-      </ul>
-    </nav>
-    <nav class="hidden xl:flex gap-10 items-center">
-      <a href="" class="font-semibold hover:text-primary_red cursor-pointer">Sign in</a>
-      <button class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red">Sign Up</button>
-    </nav>
-    <nav class="block xl:hidden">
-      <i class="bi bi-person-fill text-3xl"></i>
-    </nav>
+<body class="text-primary_black">
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+    <div class="spaced flex items-center justify-between py-[16px]">
+      <nav>
+        <div>
+          <img src="./images/Logo.png" alt="LasleVPN logo" class="w-full">
+        </div>
+      </nav>
+      <nav class="block md:hidden order-[-1]">
+        <i class="bi bi-list text-3xl"></i>
+      </nav>
+      <nav class="hidden md:block">
+        <ul class="flex gap-10">
+          <li class="hover:text-primary_red cursor-pointer">About</li>
+          <li class="hover:text-primary_red cursor-pointer">Features</li>
+          <li class="hover:text-primary_red cursor-pointer">Pricing</li>
+          <li class="hover:text-primary_red cursor-pointer">Testimonial</li>
+          <li class="hover:text-primary_red cursor-pointer">Help</li>
+        </ul>
+      </nav>
+      <nav class="hidden xl:flex gap-10 items-center">
+        <a href="" class="font-semibold hover:text-primary_red cursor-pointer">Sign in</a>
+        <button class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red">Sign Up</button>
+      </nav>
+      <nav class="block xl:hidden">
+        <i class="bi bi-person-fill text-3xl"></i>
+      </nav>
+    </div>
   </header>
-  <main>
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-[40px] mt-[50px]">
+
+  <main class="spa">
+    <section class="spaced grid grid-cols-1 md:grid-cols-2 gap-[40px] mt-[50px]">
       <div class="flex flex-col justify-center gap-[20px] self-end">
         <h1
           class="font-bold text-[30px] md:text-[45px] xl:text-[50px] leading-[37px] md:leading-[50px] xl:leading-[70px]">
@@ -56,7 +59,8 @@
         <img src=" ./images/hero-illustration.png" alt="illustration of a person">
       </div>
     </section>
-    <section class="mt-[105px] flex flex-col md:flex-row md:justify-around shadow-xl">
+    <section
+      class="mx-[25px] md:mx-[50px] lg:mx-[100px] xl:mx-[150px] max-w-[1900px] 3xl:mx-auto mt-[105px] flex flex-col md:flex-row md:justify-around shadow-xl">
       <div class="stats-icon-container">
         <i class="bi bi-person-fill stats-icon"></i>
         <div class="">
@@ -81,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section class="grid grid-cols-1 md:grid-cols-2 gap-[40px] my-[95px]">
+    <section class="spaced grid grid-cols-1 md:grid-cols-2 gap-[40px] my-[95px]">
       <div class="flex flex-col justify-center gap-[20px] md:ml-[120px] self-end">
         <h1 class="font-[900] text-[25px] md:text-[30px] xl:text-[35px] leading-[37px] md:leading-[50px] mr-[60px]">
           We Provide Many Features You Can Use</h1>
@@ -98,78 +102,82 @@
         <img src="./images/illustration2.png" alt="illustration of a person">
       </div>
     </section>
-    <section class="bg-primary_bg_gray flex flex-col gap-[40px]">
-      <div class="flex flex-col items-center gap-[20px]">
-        <h2 class="font-bold text-2xl">Choose Your Plan</h2>
-        <p class="text-center">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+    <section class="bg-primary_bg_gray py-20">
+      <div class="spaced flex flex-col gap-[40px]">
+        <div class="flex flex-col items-center gap-[20px]">
+          <h2 class="font-bold text-2xl">Choose Your Plan</h2>
+          <p class="text-center">Let's choose the package that is best for you and explore it happily and cheerfully.
+          </p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-[50px]">
+          <div
+            class="flex flex-col items-center gap-[30px] min-w-fit px-auto border-2 pt-[70px] pb-[50px] rounded-lg bg-white active:border-primary_red">
+            <div class="flex flex-col gap-[30px] items-center">
+              <div><img src="./images/box-illustration.png" alt=""></div>
+              <p class="text-[18px] font-bold">Free Plan</p>
+            </div>
+            <div>
+              <ul class="flex  flex-col gap-[10px]">
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Unlimited Bandwidth</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Encrypted connection</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>No traffic logs</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Works on all devices</li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-[20px] mt-auto items-center bottom-0">
+              <h3 class="text-[25px] font-bold">Free</h3>
+              <button
+                class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red hover:bg-primary_red hover:text-white">Select</button>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center gap-[30px] min-w-fit px-auto border-2 pt-[70px] pb-[50px] rounded-lg  bg-white active:border-primary_red">
+            <div class="flex flex-col gap-[30px] items-center">
+              <div><img src="./images/box-illustration.png" alt=""></div>
+              <p class="text-[18px] font-bold">Standard plan</p>
+            </div>
+            <div>
+              <ul class="flex  flex-col gap-[10px]">
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Unlimited Bandwidth</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Encrypted connection</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Yes traffic logs</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Works on all devices</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Connect anywhere</li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-[20px] items-center mt-auto justify-end">
+              <h3 class="text-[25px] font-bold">$9<span class="font-extralight text-gray-500"> / mo</span></h3>
+              <button
+                class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red hover:bg-primary_red hover:text-white">Select</button>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center gap-[30px] min-w-fit px-auto border-2 pt-[70px] pb-[50px] rounded-lg  bg-white active:border-primary_red">
+            <div class="flex flex-col gap-[30px] items-center">
+              <div><img src="./images/box-illustration.png" alt=""></div>
+              <p class="text-[18px] font-bold">Premium Plan</p>
+            </div>
+            <div>
+              <ul class="flex  flex-col gap-[10px]">
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Unlimited Bandwidth</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Encrypted connection</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Yes traffic logs</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Works on all devices</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Connect anywhere</li>
+                <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Get new features</li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-[20px] items-center mt-auto justify-end">
+              <h3 class="text-[25px] font-bold">$12<span class="font-extralight text-gray-500"> / mo</span></h3>
+              <button
+                class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red hover:bg-primary_red hover:text-white">Select</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-[50px]">
-        <div
-          class="flex flex-col items-center gap-[30px] min-w-fit px-auto border-2 pt-[70px] pb-[50px] rounded-lg active:border-primary_red">
-          <div class="flex flex-col gap-[30px] items-center">
-            <div><img src="./images/box-illustration.png" alt=""></div>
-            <p class="text-[18px] font-bold">Free Plan</p>
-          </div>
-          <div>
-            <ul class="flex  flex-col gap-[10px]">
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Unlimited Bandwidth</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Encrypted connection</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>No traffic logs</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Works on all devices</li>
-            </ul>
-          </div>
-          <div class="flex flex-col gap-[20px] mt-auto items-center bottom-0">
-            <h3 class="text-[25px] font-bold">Free</h3>
-            <button
-              class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red hover:bg-primary_red hover:text-white">Select</button>
-          </div>
-        </div>
-        <div
-          class="flex flex-col items-center gap-[30px] min-w-fit px-auto border-2 pt-[70px] pb-[50px] rounded-lg active:border-primary_red">
-          <div class="flex flex-col gap-[30px] items-center">
-            <div><img src="./images/box-illustration.png" alt=""></div>
-            <p class="text-[18px] font-bold">Standard plan</p>
-          </div>
-          <div>
-            <ul class="flex  flex-col gap-[10px]">
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Unlimited Bandwidth</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Encrypted connection</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Yes traffic logs</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Works on all devices</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Connect anywhere</li>
-            </ul>
-          </div>
-          <div class="flex flex-col gap-[20px] items-center mt-auto justify-end">
-            <h3 class="text-[25px] font-bold">$9<span class="font-extralight text-gray-500"> / mo</span></h3>
-            <button
-              class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red hover:bg-primary_red hover:text-white">Select</button>
-          </div>
-        </div>
-        <div
-          class="flex flex-col items-center gap-[30px] min-w-fit px-auto border-2 pt-[70px] pb-[50px] rounded-lg active:border-primary_red">
-          <div class="flex flex-col gap-[30px] items-center">
-            <div><img src="./images/box-illustration.png" alt=""></div>
-            <p class="text-[18px] font-bold">Premium Plan</p>
-          </div>
-          <div>
-            <ul class="flex  flex-col gap-[10px]">
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Unlimited Bandwidth</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Encrypted connection</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Yes traffic logs</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Works on all devices</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Connect anywhere</li>
-              <li><i class="bi bi-check2 text-2xl text-primary_green mr-[20px]"></i>Get new features</li>
-            </ul>
-          </div>
-          <div class="flex flex-col gap-[20px] items-center mt-auto justify-end">
-            <h3 class="text-[25px] font-bold">$12<span class="font-extralight text-gray-500"> / mo</span></h3>
-            <button
-              class="px-10 py-[7px] border-primary_red border-2 rounded-3xl text-primary_red hover:bg-primary_red hover:text-white">Select</button>
-          </div>
-        </div>
-      </div>
+
     </section>
-    <section class="mt-[50px] md:mt-[100px] lg:mt-[100px] xl:mt-[150px]">
+    <section class="spaced mt-[50px] md:mt-[100px] lg:mt-[100px] xl:mt-[150px]">
       <div class="flex flex-col items-center gap-[20px]">
         <h2 class="text-[20px] md:text-[35px] leading-[30px] md:leading-[50px] text-center max-w-[380px] font-bold">Huge
           Global Network of
@@ -178,16 +186,16 @@
         </p>
       </div>
       <div class="mt-[50px] md:mt-[100px] lg:mt-[100px] xl:mt-[160px] flex justify-center">
-        <img src="./images/huge-global.png" alt="illustration of a map" class="w-[80%]">
+        <img src="./images/huge-global.png" alt="illustration of a map" class="md:w-[80%]">
       </div>
     </section>
-    <section class="mt-[80px]">
-      <div class="flex justify-center flex-col sm:flex-row items-center md:gap-[50px]">
-        <div><img src="./images/netflix.png" alt="netflix logo"></div>
-        <div><img src="./images/reddit.png" alt="reddit logo"></div>
-        <div><img src="./images/amazon.png" alt="amazon logo"></div>
-        <div><img src="./images/discord.png" alt="discord logo"></div>
-        <div><img src="./images/spotify.png" alt="spotify logo"></div>
+    <section class="spaced mt-[20px] md:mt-[40px] lg:mt-[60px] xl:mt-[80px]">
+      <div class="flex justify-center flex-col gap-[20px] sm:flex-row items-center md:gap-[50px] overflow-x-auto">
+        <div class="w-[100px] md:w-[150px]"><img src="./images/netflix.png" alt="netflix logo" class="w-full"></div>
+        <div class="w-[100px] md:w-[150px]"><img src="./images/reddit.png" alt="reddit logo" class="w-full"></div>
+        <div class="w-[100px] md:w-[150px]"><img src="./images/amazon.png" alt="amazon logo" class="w-full"></div>
+        <div class="w-[100px] md:w-[150px]"><img src="./images/discord.png" alt="discord logo" class="w-full"></div>
+        <div class="w-[100px] md:w-[150px]"><img src="./images/spotify.png" alt="spotify logo" class="w-full"></div>
       </div>
     </section>
     <section class="mt-[50px] md:mt-[100px] lg:mt-[100px]">
@@ -199,7 +207,7 @@
         </p>
       </div>
     </section>
-    <section class="mt-[90px]">
+    <section class="spaced mt-[90px]">
       <div class="grid justify-center sm:grid-cols-2 lg:grid-cols-3 gap-[50px] overflow-x-hidden ">
         <div class="max-w-[400px] flex flex-col p-[30px] gap-[20px] border-2 rounded-lg active:border-primary_red">
           <div class="flex">
@@ -248,8 +256,8 @@
         </div>
       </div>
     </section>
-    <section class="mt-[50px] md:mt-[100px] lg:mt-[100px]">
-      <div class="flex justify-between">
+    <section class="spaced mt-[50px] md:mt-[100px] lg:mt-[100px] pb-[90px]">
+      <div class="flex justify-between items-center">
         <div class="flex gap-[16px]">
           <div class="bg-primary_red w-[30px] h-[16px] rounded-lg"></div>
           <div class="bg-primary_gray w-[15px] h-[15px] rounded-full"></div>
@@ -259,28 +267,76 @@
         <div>
           <div class="flex gap-4">
             <i
-              class="bi bi-arrow-right-short text-4xl text-primary_red py-2 px-2 bg-white border-2 border-primary_red rounded-full "></i>
-            <i class="bi bi-arrow-right-short text-4xl text-white py-2 px-2 bg-primary_red rounded-full"></i>
+              class="bi bi-arrow-left-short text-3xl text-primary_red py-[2px] px-[5px] bg-white border-2 border-primary_red rounded-full "></i>
+            <i class="bi bi-arrow-right-short text-3xl text-white py-[2px] px-[7px] bg-primary_red rounded-full"></i>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="mt-[90px]">
-      <div class="relative">
-        <div class="absolute flex justify-between w-full p-[70px] shadow-lg">
+    <section class="spaced mt-[60px]">
+      <div class="relative bg-red-600">
+        <div
+          class="absolute flex justify-between md:items-center w-full py-[28px] px-[20px] lg:py-[58px] lg:px-[70px] shadow-lg bg-white top-[-100px] border rounded-xl flex-col md:flex-row items-start gap-[20px]">
           <div>
-            <h2 class="font-bold text-xl">Subscribe Now for Get Special Features!</h2>
+            <h2 class="font-bold text-[25px] lg:text-[35px] max-w-[370px] lg::leading-[45px] mb-[20px]">Subscribe Now
+              for
+              Get Special Features!</h2>
             <p>Let's subscribe with us and find the fun.</p>
           </div>
-          <button
-            class="bg-primary_red text-[#fff] self-start px-14 py-2 rounded-md shadow-lg shadow-secondary_red">Subscribe
+          <button class="bg-primary_red text-[#fff] px-14 py-2 rounded-md shadow-lg shadow-secondary_red">Subscribe
             now</button>
         </div>
-        <div></div>
       </div>
     </section>
   </main>
+  <footer class="bg-primary_gray pt-[220px] md:pt-[150px] xl:pt-[200px] pb-[50px]">
+    <div class="spaced flex justify-between flex-col-reverse gap-[20px] md:flex-row">
+      <div class="flex flex-col gap-[20px]">
+        <div><img src="./images/Logo.png" alt="LaslesVPN logo"></div>
+        <p class="max-w-[340px] leading-[30px]">LaslesVPN is a private virtual network that has unique features and has
+          high security.</p>
+        <div class="flex gap-[20px]">
+          <i class="bi bi-facebook text-xl text-primary_red py-1 px-2 bg-white rounded-full shadow-md"></i>
+          <i class="bi bi-twitter text-xl text-primary_red py-1 px-2 bg-white rounded-full shadow-md"></i>
+          <i class="bi bi-instagram text-lg text-primary_red py-1 px-2 bg-white rounded-full shadow-md"></i>
+        </div>
+        <p class="mt-[10px]">&copy;2020LaslesVPN</p>
+      </div>
+      <div class="flex gap-[20px] md:gap-[130px] flex-wrap justify-between">
+        <ul class="flex flex-col gap-[20px]">
+          <li>
+            <h2 class="font-bold text-[18px]">Product</h2>
+          </li>
+          <li><a href="">Download</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Locations</a></li>
+          <li><a href="">Server</a></li>
+          <li><a href="">Countries</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+        <ul class="flex flex-col gap-[20px]">
+          <li>
+            <h2 class="font-bold text-[18px]">Engage</h2>
+          </li>
+          <li><a href="">LaslesVPN ?</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Tutorials</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms of Service</a></li>
+        </ul>
+        <ul class="flex flex-col gap-[20px]">
+          <li>
+            <h2 class="font-bold text-[18px]">Earn Money</h2>
+          </li>
+          <li><a href="">Affiliate</a></li>
+          <li><a href="">Become Partner</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
 </body>
 
 </html>
